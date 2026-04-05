@@ -7,9 +7,8 @@ export default function Footer() {
         <div className="container mx-auto max-w-6xl">
             <div className="grid md:grid-cols-2 gap-12 mb-8">
                 <div className=" space-y-6">
-                    <h2 className="text-4xl sm:text-5xl md:text-5xl font-bold text-teal-500 leading-tight">
-                        <span className="block">Let’s build a world where every mind can</span>
-                        <span className="block">dream as freely as the ocean itself.</span>
+                    <h2 className="text-4xl md:text-5xl font-bold text-teal-500 leading-tight">
+                        Let’s build a world where every mind can dream as freely as the ocean itself.
                     </h2>
                     <p className="text-xl text-gray-600 dark:text-gray-300">
                         Start by{" "}

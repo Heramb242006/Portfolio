@@ -15,17 +15,17 @@ export default function Navbar() {
     useEffect(() => {
         if (darkMode) {
             document.documentElement.classList.add("dark");
-            localStorage.setItem("theme", "dark");
+            localStorage.setItem("theme", "Light");
         } else {
             document.documentElement.classList.remove("dark");
-            localStorage.setItem("theme", "light");
+            localStorage.setItem("theme", "Dark");
         }
     }, [darkMode]);
 
     const navLinks = [
         { to: "/", label: "Home" },
+        { to: "/about", label: "About Us" },
         { to: "/projects", label: "Projects" },
-        { to: "/about", label: "About" },
     ];
 
     return (
